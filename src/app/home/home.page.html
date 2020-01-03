@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    Camera.
+  </div>
+
+  <ion-button (click)="openCam()" >Take Photo</ion-button>
+  <ion-button (click)="upload()" >Upload</ion-button>
+  <img src="{{image}}">
+</ion-content>
